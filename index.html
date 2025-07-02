@@ -1,0 +1,803 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+<!-- SIDEBAR -->
+<aside class="sidebar" data-sidebar>
+
+  <div class="sidebar-info">
+
+    <figure class="avatar-box">
+      <img src="./assets/images/my-avatar.png" alt="Suraj Kumar" width="80">
+    </figure>
+
+    <div class="info-content">
+      <h1 class="name" title="Suraj Kumar">Suraj Kumar</h1>
+      <p class="title">Android Developer</p>
+    </div>
+
+    <button class="info_more-btn" data-sidebar-btn>
+      <span>Show Contacts</span>
+      <ion-icon name="chevron-down"></ion-icon>
+    </button>
+
+  </div>
+
+  <div class="sidebar-info_more">
+
+    <div class="separator"></div>
+
+    <ul class="contacts-list">
+
+      <li class="contact-item">
+        <div class="icon-box">
+          <ion-icon name="mail-outline"></ion-icon>
+        </div>
+        <div class="contact-info">
+          <p class="contact-title">Email</p>
+          <a href="mailto:sk658139@gmail.com" class="contact-link">sk658139@gmail.com</a>
+        </div>
+      </li>
+
+      <li class="contact-item">
+        <div class="icon-box">
+          <ion-icon name="phone-portrait-outline"></ion-icon>
+        </div>
+        <div class="contact-info">
+          <p class="contact-title">Phone</p>
+          <a href="tel:+917870612052" class="contact-link">+91-7870612052</a>
+        </div>
+      </li>
+
+      <li class="contact-item">
+        <div class="icon-box">
+          <ion-icon name="calendar-outline"></ion-icon>
+        </div>
+        <div class="contact-info">
+          <p class="contact-title">Birthday</p>
+          <time datetime="2002-06-15">January 12, 2004</time>
+        </div>
+      </li>
+
+      <li class="contact-item">
+        <div class="icon-box">
+          <ion-icon name="location-outline"></ion-icon>
+        </div>
+        <div class="contact-info">
+          <p class="contact-title">Location</p>
+          <address>Durgapur, West Bengal, India</address>
+        </div>
+      </li>
+
+    </ul>
+
+    <div class="separator"></div>
+<ul class="social-list">
+
+  <li class="social-item">
+    <a href="https://github.com/surajpsk12" class="social-link" target="_blank">
+      <ion-icon name="logo-github"></ion-icon>
+    </a>
+  </li>
+
+  <li class="social-item">
+    <a href="https://www.linkedin.com/in/surajvansh12" class="social-link" target="_blank">
+      <ion-icon name="logo-linkedin"></ion-icon>
+    </a>
+  </li>
+
+  <li class="social-item">
+    <a href="https://www.instagram.com/surajvansh12/" class="social-link" target="_blank">
+      <ion-icon name="logo-instagram"></ion-icon>
+    </a>
+  </li>
+
+  <li class="social-item">
+    <a href="https://x.com/SurajKr1201" class="social-link" target="_blank">
+      <ion-icon name="logo-twitter"></ion-icon>
+    </a>
+  </li>
+
+</ul>
+
+
+  </div>
+
+</aside>
+
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+  <ul class="navbar-list">
+
+    <li class="navbar-item">
+      <button class="navbar-link active" data-nav-link>About</button>
+    </li>
+
+    <li class="navbar-item">
+      <button class="navbar-link" data-nav-link>Resume</button>
+    </li>
+
+    <li class="navbar-item">
+      <button class="navbar-link" data-nav-link>Projects</button>
+    </li>
+
+    <li class="navbar-item">
+      <button class="navbar-link" data-nav-link>Certificates</button>
+    </li>
+
+    <li class="navbar-item">
+      <button class="navbar-link" data-nav-link>Contact</button>
+    </li>
+
+  </ul>
+
+</nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+<article class="about active" data-page="about">
+
+  <header>
+    <h2 class="h2 article-title">About Me</h2>
+  </header>
+
+  <section class="about-text">
+    <p>
+      I am a motivated Computer Science undergraduate based in Durgapur, West Bengal, with hands-on experience in Android app development using Java, Room Database, and the MVVM architecture. I am skilled in problem-solving, software design, and building user-friendly applications.
+    </p>
+    <p>
+      I am also passionate about UI/UX design, working with tools like Figma and Canva to create engaging and intuitive interfaces. My goal is to deliver efficient, attractive, and responsive solutions while continuously learning and growing in the tech field.
+    </p>
+  </section>
+
+  <!-- services -->
+  <section class="service">
+
+    <h3 class="h3 service-title">What I’m Doing</h3>
+
+    <ul class="service-list">
+      <li class="service-item">
+        <div class="service-icon-box">
+          <img src="./assets/images/icon-dev.svg" alt="App development icon" width="40">
+        </div>
+        <div class="service-content-box">
+          <h4 class="h4 service-item-title">Android App Development</h4>
+          <p class="service-item-text">
+            Building scalable, efficient Android apps with Java, Room DB, and MVVM.
+          </p>
+        </div>
+      </li>
+
+      <li class="service-item">
+        <div class="service-icon-box">
+          <img src="./assets/images/icon-design.svg" alt="Design icon" width="40">
+        </div>
+        <div class="service-content-box">
+          <h4 class="h4 service-item-title">Web Developer</h4>
+          <p class="service-item-text">
+            Modern, high-quality websites  built to professional standards.
+          </p>
+        </div>
+      </li>
+
+      
+      <li class="service-item">
+        <div class="service-icon-box">
+          <img src="./assets/images/icon-app.svg" alt="UI/UX design icon" width="40">
+        </div>
+        <div class="service-content-box">
+          <h4 class="h4 service-item-title">UI/UX Design</h4>
+          <p class="service-item-text">
+            Designing intuitive, user-friendly interfaces with Figma and Canva.
+          </p>
+        </div>
+      </li>
+
+      <li class="service-item">
+        <div class="service-icon-box">
+          <img src="./assets/images/icon-photo.svg" alt="Problem solving icon" width="40">
+        </div>
+        <div class="service-content-box">
+          <h4 class="h4 service-item-title">Problem Solving</h4>
+          <p class="service-item-text">
+            Applying logical thinking to build clean, maintainable solutions.
+          </p>
+        </div>
+      </li>
+
+    </ul>
+
+  </section>
+
+  <!-- testimonials -->
+  <section class="testimonials">
+    <h3 class="h3 testimonials-title">Testimonials</h3>
+    <ul class="testimonials-list has-scrollbar">
+      <li class="testimonials-item">
+        <div class="content-card" data-testimonials-item>
+          <figure class="testimonials-avatar-box">
+            <img src="./assets/images/avatar-1.png" alt="Aryant Kumar" width="60" data-testimonials-avatar>
+          </figure>
+          <h4 class="h4 testimonials-item-title" data-testimonials-title>Aryant Kumar</h4>
+          <div class="testimonials-text" data-testimonials-text>
+            <p>
+              Suraj worked with me  Android app redesign and delivered great results. Highly professional and detail-oriented.
+            </p>
+          </div>
+        </div>
+      </li>
+      <li class="testimonials-item">
+        <div class="content-card" data-testimonials-item>
+          <figure class="testimonials-avatar-box">
+            <img src="./assets/images/avatar-1.png" alt="Aditya Raj" width="60" data-testimonials-avatar>
+          </figure>
+          <h4 class="h4 testimonials-item-title" data-testimonials-title>Aditya Raj</h4>
+          <div class="testimonials-text" data-testimonials-text>
+            <p>
+              Very responsive and skilled developer. Suraj helped us improve our app’s performance and user experience significantly.
+            </p>
+          </div>
+        </div>
+      </li>
+      <li class="testimonials-item">
+        <div class="content-card" data-testimonials-item>
+          <figure class="testimonials-avatar-box">
+            <img src="./assets/images/avatar-1.png" alt="Dhiraj Kumar" width="60" data-testimonials-avatar>
+          </figure>
+          <h4 class="h4 testimonials-item-title" data-testimonials-title>Dhiraj Kumar</h4>
+          <div class="testimonials-text" data-testimonials-text>
+            <p>
+              Suraj is dedicated to creating user-friendly apps and has a great eye for design.
+            </p>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </section>
+
+  <!-- testimonials modal -->
+  <div class="modal-container" data-modal-container>
+    <div class="overlay" data-overlay></div>
+    <section class="testimonials-modal">
+      <button class="modal-close-btn" data-modal-close-btn>
+        <ion-icon name="close-outline"></ion-icon>
+      </button>
+      <div class="modal-img-wrapper">
+        <figure class="modal-avatar-box">
+          <img src="./assets/images/avatar-1.png" alt="Prateek Kumar" width="80" data-modal-img>
+        </figure>
+        <img src="./assets/images/icon-quote.svg" alt="quote icon">
+      </div>
+      <div class="modal-content">
+        <h4 class="h3 modal-title" data-modal-title>Prateek Kumar</h4>
+        <time datetime="2025-06-14">14 April, 2025</time>
+        <div data-modal-text>
+          <p>
+            Suraj worked on our Android app redesign and delivered great results. Highly professional and detail-oriented.
+          </p>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- clients -->
+  <!-- <section class="clients">
+    <h3 class="h3 clients-title">Experience</h3>
+    <ul class="clients-list has-scrollbar">
+      <li class="clients-item"><a href="#"><img src="./assets/images/codsoft-02.png" alt="client logo"></a></li>
+        <li class="clients-item"><a href="#"><img src="./assets/images/logo-2-color.png" alt="client logo"></a></li>
+      <li class="clients-item"><a href="#"><img src="./assets/images/logo-3-color.png" alt="client logo"></a></li>
+      <li class="clients-item"><a href="#"><img src="./assets/images/logo-4-color.png" alt="client logo"></a></li>
+    </ul>
+  </section>-->
+
+</article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+<article class="resume" data-page="resume">
+
+  <header>
+    <h2 class="h2 article-title">Resume</h2>
+  </header>
+
+  <!-- Education Section -->
+  <section class="timeline">
+    <div class="title-wrapper">
+      <div class="icon-box">
+        <ion-icon name="school-outline"></ion-icon>
+      </div>
+      <h3 class="h3">Education</h3>
+    </div>
+
+    <ol class="timeline-list">
+      <li class="timeline-item">
+        <h4 class="h4 timeline-item-title">Bengal College of Engineering and Technology, Durgapur</h4>
+        <span>Aug 2022 — Present</span>
+        <p class="timeline-text">
+          B.Tech in Computer Science and Engineering — CGPA: 7.0
+        </p>
+      </li>
+
+      <li class="timeline-item">
+        <h4 class="h4 timeline-item-title">DAV Public School, Rajrappa Project</h4>
+        <span>2019 — 2021</span>
+        <p class="timeline-text">
+          Central Board of Secondary Education - Science — Percentage: 83.8%
+        </p>
+      </li>
+
+      <li class="timeline-item">
+        <h4 class="h4 timeline-item-title">DAV Public School, Rajrappa Project</h4>
+        <span>2019</span>
+        <p class="timeline-text">
+          Central Board of Secondary Education — Percentage: 89%
+        </p>
+      </li>
+    </ol>
+  </section>
+
+  <!-- Experience Section -->
+  <section class="timeline">
+    <div class="title-wrapper">
+      <div class="icon-box">
+        <ion-icon name="briefcase-outline"></ion-icon>
+      </div>
+      <h3 class="h3">Experience</h3>
+    </div>
+
+    <ol class="timeline-list">
+      <li class="timeline-item">
+        <h4 class="h4 timeline-item-title">Android Developer Intern - CodSoft</h4>
+        <span>June 2025</span>
+        <p class="timeline-text">
+          Built two Android apps (Quotes App and Alarm App) using Retrofit, RoomDB, MVVM architecture, WorkManager, and other Android frameworks during a one-month internship.
+        </p>
+      </li>
+    </ol>
+  </section>
+
+  <!-- Skills Section -->
+  <section class="timeline">
+    <div class="title-wrapper">
+      <div class="icon-box">
+        <ion-icon name="construct-outline"></ion-icon>
+      </div>
+      <h3 class="h3">Skills</h3>
+    </div>
+
+    <ul class="skills-list content-card">
+      <li class="skills-item">
+        <div class="title-wrapper">
+          <h5 class="h5">Android App Development </h5>
+          <data value="55">55%</data>
+        </div>
+        <div class="skill-progress-bg">
+          <div class="skill-progress-fill" style="width: 85%;"></div>
+        </div>
+      </li>
+
+      <li class="skills-item">
+        <div class="title-wrapper">
+          <h5 class="h5">HTML / CSS / Tailwind</h5>
+          <data value="90">90%</data>
+        </div>
+        <div class="skill-progress-bg">
+          <div class="skill-progress-fill" style="width: 90%;"></div>
+        </div>
+      </li>
+
+      <li class="skills-item">
+        <div class="title-wrapper">
+          <h5 class="h5">JavaScript / Node.js</h5>
+          <data value="80">80%</data>
+        </div>
+        <div class="skill-progress-bg">
+          <div class="skill-progress-fill" style="width: 80%;"></div>
+        </div>
+      </li>
+
+      <li class="skills-item">
+        <div class="title-wrapper">
+          <h5 class="h5">SQL / SQLite</h5>
+          <data value="75">75%</data>
+        </div>
+        <div class="skill-progress-bg">
+          <div class="skill-progress-fill" style="width: 75%;"></div>
+        </div>
+      </li>
+
+      <li class="skills-item">
+        <div class="title-wrapper">
+          <h5 class="h5">Git / GitHub</h5>
+          <data value="85">85%</data>
+        </div>
+        <div class="skill-progress-bg">
+          <div class="skill-progress-fill" style="width: 85%;"></div>
+        </div>
+      </li>
+
+      <li class="skills-item">
+        <div class="title-wrapper">
+          <h5 class="h5">C / C++</h5>
+          <data value="80">80%</data>
+        </div>
+        <div class="skill-progress-bg">
+          <div class="skill-progress-fill" style="width: 80%;"></div>
+        </div>
+      </li>
+
+      <li class="skills-item">
+        <div class="title-wrapper">
+          <h5 class="h5">Python</h5>
+          <data value="75">75%</data>
+        </div>
+        <div class="skill-progress-bg">
+          <div class="skill-progress-fill" style="width: 75%;"></div>
+        </div>
+      </li>
+
+      <li class="skills-item">
+        <div class="title-wrapper">
+          <h5 class="h5">UI/UX (Figma, Canva)</h5>
+          <data value="75">75%</data>
+        </div>
+        <div class="skill-progress-bg">
+          <div class="skill-progress-fill" style="width: 75%;"></div>
+        </div>
+      </li>
+    </ul>
+  </section>
+
+  <!-- Achievements Section -->
+  <section class="timeline">
+    <div class="title-wrapper">
+      <div class="icon-box">
+        <ion-icon name="trophy-outline"></ion-icon>
+      </div>
+      <h3 class="h3">Achievements</h3>
+    </div>
+
+    <ol class="timeline-list">
+      <li class="timeline-item">
+        <h4 class="h4 timeline-item-title">Certificate for Organising Annual Sports - ATHLEKA</h4>
+        <span>March 2025</span>
+        <p class="timeline-text">
+          Awarded by Sports Committee of BCET for successful event management.
+        </p>
+      </li>
+      <li class="timeline-item">
+        <h4 class="h4 timeline-item-title">Certificate for Organising 3x3 Basketball Tournament</h4>
+        <span>October 2023</span>
+        <p class="timeline-text">
+          Recognized by Basketball Club of BCET for organizing and managing the tournament.
+        </p>
+      </li>
+    </ol>
+  </section>
+
+</article>
+
+<!-- projects section  -->
+<article class="portfolio" data-page="projects">
+
+  <header>
+    <h2 class="h2 article-title">Projects</h2>
+  </header>
+
+  <section class="projects">
+
+    <ul class="filter-list">
+      <li class="filter-item">
+        <button class="active" data-filter-btn>All</button>
+      </li>
+      <li class="filter-item">
+        <button data-filter-btn>Android Apps</button>
+      </li>
+      <li class="filter-item">
+        <button data-filter-btn>Web Development</button>
+      </li>
+    </ul>
+
+    <div class="filter-select-box">
+      <button class="filter-select" data-select>
+        <div class="select-value" data-selecct-value>Select category</div>
+        <div class="select-icon"><ion-icon name="chevron-down"></ion-icon></div>
+      </button>
+      <ul class="select-list">
+        <li class="select-item"><button data-select-item>all</button></li>
+        <li class="select-item"><button data-select-item>Android apps</button></li>
+        <li class="select-item"><button data-select-item>web development</button></li>
+      </ul>
+    </div>
+
+<ul class="project-list">
+
+  <!-- Quote App -->
+  <li class="project-item active" data-filter-item data-category="android apps">
+    <a href="#" target="_blank">
+      <figure class="project-img">
+        <div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div>
+        <img src="./assets/images/QUOTEAPPLOGO.png" alt="Quote App" loading="lazy">
+      </figure>
+      <h3 class="project-title">Quote App</h3>
+      <p class="project-category">Android Apps</p>
+    </a>
+  </li>
+
+  <!-- Alarm App -->
+  <li class="project-item active" data-filter-item data-category="android apps">
+    <a href="https://github.com/surajpsk12/CODSOFT-AlarmApp.git" target="_blank">
+      <figure class="project-img">
+        <div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div>
+        <img src="./assets/images/ALARMAPPUI.png" alt="Alarm Clock App" loading="lazy">
+      </figure>
+      <h3 class="project-title">Alarm Clock App</h3>
+      <p class="project-category">Android Apps</p>
+    </a>
+  </li>
+
+  <!-- Movie App -->
+  <li class="project-item active" data-filter-item data-category="android apps">
+    <a href="https://github.com/surajpsk12/TheMovieApp.git" target="_blank">
+      <figure class="project-img">
+        <div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div>
+        <img src="./assets/images/MOVIEAPPUI.png" alt="TheMovieApp" loading="lazy">
+      </figure>
+      <h3 class="project-title">TheMovieApp</h3>
+      <p class="project-category">Android Apps</p>
+    </a>
+  </li>
+
+  <!-- Todo App -->
+  <li class="project-item active" data-filter-item data-category="android apps">
+    <a href="#" target="_blank">
+      <figure class="project-img">
+        <div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div>
+        <img src="./assets/images/TO DO APP UI.png" alt="Todo App" loading="lazy">
+      </figure>
+      <h3 class="project-title">Todo App</h3>
+      <p class="project-category">Android Apps</p>
+    </a>
+  </li>
+
+  <!-- BMI Calculator App -->
+  <li class="project-item active" data-filter-item data-category="android apps">
+    <a href="#" target="_blank">
+      <figure class="project-img">
+        <div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div>
+        <img src="./assets/images/BMIAPP UI.png" alt="BMI Calculator App" loading="lazy">
+      </figure>
+      <h3 class="project-title">BMI Calculator App</h3>
+      <p class="project-category">Android Apps</p>
+    </a>
+  </li>
+
+</ul>
+
+
+  </section>
+</article>
+
+
+
+<!-- Certificates Section -->
+<article class="blog" data-page="certificates">
+
+  <header>
+    <h2 class="h2 article-title">Certificates</h2>
+  </header>
+
+  <section class="blog-posts">
+
+    <ul class="blog-posts-list">
+
+      <!-- Python Certificate -->
+      <li class="blog-post-item">
+        <a href="https://ude.my/UC-c90bcd9b-a5c5-452f-81a0-cc8d9a2ab577" target="_blank">
+          <figure class="blog-banner-box">
+            <img src="./assets/images/pythoncerti.jpg" alt="Python Programming for Beginners" loading="lazy">
+          </figure>
+          <div class="blog-content">
+            <div class="blog-meta">
+              <p class="blog-category">Udemy</p>
+              <span class="dot"></span>
+              <time datetime="2023-10-07">Oct 7, 2023</time>
+            </div>
+            <h3 class="h3 blog-item-title">Python Programming for Beginners</h3>
+            <p class="blog-text">
+              Completed a beginner-level Python programming course on Udemy, covering fundamental programming concepts and hands-on exercises.
+            </p>
+          </div>
+        </a>
+      </li>
+
+      <!-- Java Crash Course -->
+      <li class="blog-post-item">
+        <a href="https://ude.my/UC-000a9fd1-4d7f-4242-b878-e9e4fd0ccdd2" target="_blank">
+          <figure class="blog-banner-box">
+            <img src="./assets/images/javacerti.jpg" alt="Java Crash Course" loading="lazy">
+          </figure>
+          <div class="blog-content">
+            <div class="blog-meta">
+              <p class="blog-category">Udemy / Crunch Coding Institute</p>
+              <span class="dot"></span>
+              <time datetime="2023-10-07">Oct 7, 2023</time>
+            </div>
+            <h3 class="h3 blog-item-title">Java Training Crash Course for Beginners</h3>
+            <p class="blog-text">
+              Completed a fast-paced Java introduction with Crunch Coding Institute on Udemy, covering Java fundamentals.
+            </p>
+          </div>
+        </a>
+      </li>
+
+      <!-- JavaScript Master -->
+      <li class="blog-post-item">
+        <a href="https://ude.my/UC-9b8a5b7b-d1ba-4881-aea4-4fd803b35a32" target="_blank">
+          <figure class="blog-banner-box">
+            <img src="./assets/images/javascriptcerti.jpg" alt="Master JavaScript" loading="lazy">
+          </figure>
+          <div class="blog-content">
+            <div class="blog-meta">
+              <p class="blog-category">Udemy / EdYoda for Business</p>
+              <span class="dot"></span>
+              <time datetime="2023-05-30">May 30, 2023</time>
+            </div>
+            <h3 class="h3 blog-item-title">Master JavaScript from Basics to Advanced</h3>
+            <p class="blog-text">
+              Completed an advanced JavaScript program with EdYoda, covering everything from ES6 to advanced DOM manipulations.
+            </p>
+          </div>
+        </a>
+      </li>
+
+      <!-- Core Java Bootcamp -->
+      <li class="blog-post-item">
+        <a href="https://ude.my/UC-e3e3ede8-f7c9-4207-9978-784b7c6e38e1" target="_blank">
+          <figure class="blog-banner-box">
+            <img src="./assets/images/javacerti200.jpg" alt="Core Java Bootcamp" loading="lazy">
+          </figure>
+          <div class="blog-content">
+            <div class="blog-meta">
+              <p class="blog-category">Udemy / Toppers Bootcamp</p>
+              <span class="dot"></span>
+              <time datetime="2023-10-07">Oct 7, 2023</time>
+            </div>
+            <h3 class="h3 blog-item-title">2025 Core JAVA Bootcamp from Zero to Hero</h3>
+            <p class="blog-text">
+              Completed a comprehensive Java bootcamp with Toppers Bootcamp on Udemy, from absolute beginner to advanced Java concepts.
+            </p>
+          </div>
+        </a>
+      </li>
+
+    </ul>
+
+  </section>
+</article>
+
+
+      <!--
+        - #CONTACT
+      -->
+<!-- CONTACT -->
+<article class="contact" data-page="contact">
+
+  <header>
+    <h2 class="h2 article-title">Contact</h2>
+  </header>
+
+  <!-- Google Maps -->
+  <section class="mapbox" data-mapbox>
+    <figure>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14745.758171978857!2d87.30810796463716!3d23.520444207618417!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f771fe37706fb5%3A0x69a48d46e09d19ff!2sDurgapur%2C%20West%20Bengal%2C%20India!5e0!3m2!1sen!2sin!4v1719994976892!5m2!1sen!2sin"
+        width="400" height="300" loading="lazy" style="border:0;" allowfullscreen></iframe>
+    </figure>
+  </section>
+
+  <!-- Contact Form -->
+  <section class="contact-form">
+    <h3 class="h3 form-title">Contact Form</h3>
+
+    <form action="#" class="form" data-form>
+      <div class="input-wrapper">
+        <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+        <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+      </div>
+
+      <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+      <button class="form-btn" type="submit" disabled data-form-btn>
+        <ion-icon name="paper-plane"></ion-icon>
+        <span>Send Message</span>
+      </button>
+    </form>
+  </section>
+</article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
